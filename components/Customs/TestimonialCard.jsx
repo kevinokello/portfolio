@@ -5,7 +5,7 @@ const TestimonialCard = (props) => {
     const { content, author } = props
     return (
         <div className="md:w-1/2 w-full">
-            <div className="p-6 m-2 rounded-lg bg-paper dark:bg-paperDark shadow-normal md:min-h-[180px]">
+            <div className="p-6 m-2 rounded-lg bg-paper dark:bg-paperDark shadow-normal">
 
                 <div className="rounded-lg relative">
 
