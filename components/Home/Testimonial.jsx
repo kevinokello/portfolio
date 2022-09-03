@@ -9,32 +9,32 @@ const TestimonialSection = () => {
       content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga nostrum ea ullam enim inventore.",
       author:{
         avatar:"/images/testimonial/avatar-1.jpg",
-        name:"Ashish",
-        description:"hello"
+        name:"John Doe",
+        description:"Sernior Web Developer"
       }
     },
     {
       content:"Lorem ipsum dolor sit amet consectetua nostrum ea ullam enim inventore.",
       author:{
         avatar:"/images/testimonial/avatar-2.jpg",
-        name:"Ashish",
-        description:"hello"
+        name:"Alex",
+        description:"Data Scientist"
       }
     },
     {
       content:"Lorem ipsum dolor sit amet consectetur adipisicing elullam enim inventore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aliquam fuga nostrum ea ullam enim inventore.",
       author:{
         avatar:"/images/testimonial/avatar-3.jpg",
-        name:"Ashish",
-        description:"hello"
+        name:"Emily",
+        description:"UI/UX Designer"
       }
     },
     {
       content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aliquam fuga nostrum ea ullam enim inventore.",
       author:{
         avatar:"/images/testimonial/avatar-4.jpg",
-        name:"Ashish",
-        description:"hello"
+        name:"Boron",
+        description:"Backend Developer"
       }
     },
   ]
