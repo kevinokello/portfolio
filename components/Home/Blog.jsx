@@ -52,13 +52,7 @@ const Blog = () => {
           <BlogCard key={index} {...article} />
         ))}
       </div>
-      <div className="my-4">
-        <button className="flex items-center text-sm justify-center group mx-auto duration-300 bg-paper dark:bg-paperDark transition-all hover:bg-primary dark:hover:bg-primary px-4 py-2 capitalize rounded-md font-semibold">
-          <HiOutlineEye className="w-5 h-5 mr-2" />
-          see more
-          <HiOutlineArrowRight className="w-4 h-4 transition-all ml-2 group-hover:ml-4 duration-300" />
-        </button>
-      </div>
+
     </Section>
   );
 }
