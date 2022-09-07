@@ -28,7 +28,7 @@ const Contact = () => {
                     <div className='mx-auto'>
                     <iframe
                         width="100%"
-                        height="80%"
+                        height="100%"
                         title="map"
                         className="absolute inset-0"
                         frameBorder={0}
@@ -39,6 +39,7 @@ const Contact = () => {
                         style={{ filter: "grayscale(1) contrast(1.2) opacity(0.85)" }}
                         />
                         </div>
+                        
                     <div className="dark:bg-paperDark bg-paper relative text-xs flex flex-wrap py-6 pr-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold tracking-widest">
