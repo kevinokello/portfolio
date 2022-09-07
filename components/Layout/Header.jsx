@@ -65,8 +65,8 @@ const Header = (props) => {
                 <div className='max-w-[1140px] mx-auto dark:text-textDarkPrimary text-textPrimary'>
                     <div className="mx-auto flex flex-wrap p-2.5 items-center flex-col xs:flex-row">
                         <div onClick={() => handleScroll('#top')} className="flex title-font font-medium items-center justify-items-center text-textPrimary dark:text-textDarkPrimary cursor-pointer">
-                            {/* <Image src="/logo.svg" alt="logo" width={36} height={36} /> */}
-                            <span className="ml-2 text-lg md:text-xl">$ cd~</span>
+                            <Image src="/logo.svg" alt="logo" width={36} height={36} />
+                            <span className="ml-2 text-lg md:text-xl">Portfolio</span>
                         </div>
                         <nav className="mt-3 xs:mt-0 xs:!ml-auto flex flex-wrap items-center text-base justify-center">
                             {navigations.map(({ name, url, icon }, index) => (
