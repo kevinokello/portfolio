@@ -22,20 +22,20 @@ const Contact = () => {
     }
 
     return (
-        <Section id="contact" title="Contact Me" subtitle="connect with me" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil fugit pariatur nam eos!">
+        <Section id="contact" title="Contact Me" subtitle="connect with me" description="This could be the beginning of something graet!">
             <div className=" mx-auto flex lg:flex-nowrap flex-wrap">
                 <div className="lg:w-2/3 w-full shadow-normal flex-1 mx-auto rounded-lg lg:mr-10 overflow-hidden p-4 pt-56 flex items-end justify-start relative">
                     <div className='mx-auto'>
                     <iframe
                         width="100%"
-                        height="100%"
+                        height="80%"
                         title="map"
                         className="absolute inset-0"
                         frameBorder={0}
                         marginHeight={0}
                         marginWidth={0}
                         scrolling="no"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448181.163741622!2d76.81306442366602!3d28.64727993557044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1662188044286!5m2!1sen!2sin"
+                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9182862533594!2d36.89316311406753!3d-1.2170227991123088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1589f6c5bfc7%3A0x4350b7f210b851cd!2sGoshen%20Gardens%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1662546416047!5m2!1sen!2ske"
                         style={{ filter: "grayscale(1) contrast(1.2) opacity(0.85)" }}
                         />
                         </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                                 ADDRESS
                             </h2>
                             <p className="mt-1">
-                                Delhi, India
+                                Nairobi, Kenya
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
@@ -53,13 +53,13 @@ const Contact = () => {
                             <h2 className="title-font font-semibold  tracking-widest">
                                 EMAIL
                             </h2>
-                            <a className="text-primary leading-relaxed">exmaple@email.com</a>
+                            <a className="text-primary leading-relaxed">kevinokello222@gmail.com</a>
                             </div>
                             <div>
                             <h2 className="title-font font-semibold  tracking-widest mt-4">
                                 PHONE
                             </h2>
-                            <p className="leading-relaxed">+91 00000 00000</p>
+                            <p className="leading-relaxed">+254 724 071 015</p>
                             </div>
                         </div>
                     </div>

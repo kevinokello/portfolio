@@ -41,22 +41,26 @@ const Blog = () => {
     },
   ]
   return (
-    <Section id="blog" title="My Blog" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum fugiat nostrum ipsam minima omnis dolorem, excepturi autem." subtitle="Recent Posts">
+    <Section
+      id="blog"
+      title="My Blog"
+      description="Welcome to my digital garden where I share what I'm learning, my shipped great products, becoming a better developer and growing a career in tech."
+      subtitle="Recent Posts"
+    >
       <div className="flex flex-wrap justify-center items-start">
         {articles.map((article, index) => (
           <BlogCard key={index} {...article} />
         ))}
       </div>
-      <div className='my-4'>
-        <button className='flex items-center text-sm justify-center group mx-auto duration-300 bg-paper dark:bg-paperDark transition-all hover:bg-primary dark:hover:bg-primary px-4 py-2 capitalize rounded-md font-semibold'>
-          <HiOutlineEye className='w-5 h-5 mr-2' />
+      <div className="my-4">
+        <button className="flex items-center text-sm justify-center group mx-auto duration-300 bg-paper dark:bg-paperDark transition-all hover:bg-primary dark:hover:bg-primary px-4 py-2 capitalize rounded-md font-semibold">
+          <HiOutlineEye className="w-5 h-5 mr-2" />
           see more
-          <HiOutlineArrowRight className='w-4 h-4 transition-all ml-2 group-hover:ml-4 duration-300' />
+          <HiOutlineArrowRight className="w-4 h-4 transition-all ml-2 group-hover:ml-4 duration-300" />
         </button>
       </div>
     </Section>
-
-  )
+  );
 }
 
 export default Blog

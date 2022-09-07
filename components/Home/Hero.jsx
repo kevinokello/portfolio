@@ -16,7 +16,7 @@ const Hero = () => {
             Hi 👋, I Am Kevin Okello
           </h1>
           <h3 className="text-lg mt-1 opacity-90 font-normal capitalize ">
-            A Full Stack Web Developer
+            A Passionate Full Stack Software Developer and Tech Entrepreneur
           </h3>
           <div className="w-24 h-1 bg-primary bg-opacity-70 mt-6 mb-4">
             <div className="w-10 h-1 bg-primary"></div>
