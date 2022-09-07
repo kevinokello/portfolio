@@ -27,7 +27,8 @@ const Contact = () => {
                 <div className="lg:w-2/3 w-full shadow-normal flex-1 mx-auto rounded-lg lg:mr-10 overflow-hidden p-4 pt-56 flex items-end justify-start relative">
                     <div className='mx-auto'>
                   
-                        </div>                      
+                        </div>
+                        
                     <div className="dark:bg-paperDark bg-paper relative text-xs flex flex-wrap py-6 pr-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold tracking-widest">
@@ -53,9 +54,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="lg:w-1/3  w-full md:py-8 mt-8 md:mt-0">
-                    
-                </div>
+        
             </div>
         </Section>
     )
