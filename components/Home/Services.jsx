@@ -6,31 +6,11 @@ import { HiOutlinePencilAlt, HiOutlineChartBar, HiOutlineMoon, HiOutlineDeviceMo
 
 const Services = () => {
     const data = [
-      {
-        title: "Mobile App Development",
-        description:
-          "I make highly scalable MVC Web and Mobile Applications using React Native.",
-        icon: <HiOutlinePencilAlt className="w-6 h-6 stroke-2" />,
-      },
-      {
-        title: "Creative Design",
-        description:
-          "Kevin offers creative services that cover your entire design lifecycleFrom prototyping to fully functional design.",
-        icon: <HiOutlineChartBar className="w-6 h-6 stroke-2" />,
-      },
-      {
-        title: "Software Development",
-        description:
-          "I offer pixel responsive software design and development services which are built around aesthetics,workability and usability.",
-        icon: <HiOutlineDeviceMobile className="w-6 h-6 stroke-2" />,
-      },
-      {
-        title: "Content Writing",
-        description:
-          "My content and copy-writing services will help you articulate your message and give the audience a compelling reason to keep coming back.",
-        icon: <HiOutlineMoon className="w-6 h-6 stroke-2" />,
-      },
-    ];
+        { title: "Creative Designs", description: "In publishing and graphic design, Lorem ipsum is a placee without them.", icon: <HiOutlinePencilAlt className="w-6 h-6 stroke-2" /> },
+        { title: "Responsiveness", description: "hing and graphic design,hir text commonly use on the platform.", icon: <HiOutlineChartBar className="w-6 h-6 stroke-2" /> },
+        { title: "Responsiveness", description: "checking and text commonly used to demon.", icon: <HiOutlineDeviceMobile className="w-6 h-6 stroke-2" /> },
+        { title: "Dark Mode", description: "Use the text generator to create your own text.", icon: <HiOutlineMoon className="w-6 h-6 stroke-2" /> }
+    ]
 
     return (
         <Section id="services" title="Services" description="Lorem ipsum dolor sit adipisicing elit. Facere, quos! Et asperiores ut dolorem dignissimos possimus, molestiae nemo." subtitle="what I can do for you ?">
