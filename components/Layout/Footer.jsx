@@ -76,7 +76,7 @@ const Footer = () => {
   }
   return (
     <footer className="relative overflow-hidden z-10 dark:text-textDarkSecondary text-textSecondary bg-paper dark:bg-paperDark shadow-normal">
-
+{/* 
       <div className="container max-w-[1140px] px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 mb-10 md:mb-0 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
           <a className="flex items-center md:justify-start justify-center dark:text-white text-gray-800">
@@ -108,7 +108,7 @@ const Footer = () => {
           ))}
 
         </div>
-      </div>  
+      </div>   */}
 
     </footer>
   )
