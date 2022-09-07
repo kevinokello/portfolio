@@ -58,11 +58,11 @@ const Hero = () => {
         </div>
         <div className="mb-6 mx-auto text-center select-none relative">
           <Image
-            className="object-cover object-center rounded-xl rounded-tl-[200px] z-10 "
+            className="object-cover object-center rounded-xl rounded-tl-[100px] z-10 "
             alt="hero"
             width={550}
             height={400}
-            src="https://avatars.githubusercontent.com/u/76564523?v=4"
+            src="/images/m.jpg"
           />
         </div>
       </div>
