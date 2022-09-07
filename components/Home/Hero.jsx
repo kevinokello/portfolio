@@ -23,17 +23,13 @@ const Hero = () => {
           </div>
 
           <p className="mb-6 mt-2 xl:w-[80%] leading-relaxed text-textSecondary font-medium dark:text-textDarkSecondary opacity-70 text-xs md:text-sm">
-            I Work with a variety of different languages, frameworks, platforms,
-            and content management systems to write modern, performant,
-            maintainable code for a diverse array of clients and internal
-            projects.
+            Lorem ipsum dolor, sit amet consectetur apsum animi! Minima modi
+            pariatur, delectus asperiores aspernatur magnam voluptates soluta
+            tempora accusantium?
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start">
             <div>
-              <a
-                href="https://drive.google.com/file/d/1vbokrQvFT9UmuIDbmt6MC09_TC7MndCZ/view"
-                target="_blank"
-              >
+              <a href="/">
                 <button
                   type="button"
                   className="outline-none text-xs md:text-sm text-white bg-gradient-to-r from-primary/80 via-secondary/60 to-secondary/80 hover:from-primary hover:via-secondary/80 hover:to-secondary transition-all duration-300 font-medium rounded-lg text-md opacity-90 hover:opacity-100 py-2.5 px-4 text-center mr-2 mb-3 flex justify-center items-center"
@@ -62,11 +58,11 @@ const Hero = () => {
         </div>
         <div className="mb-6 mx-auto text-center select-none relative">
           <Image
-            className="object-cover object-center rounded-xl rounded-tl-[100px] z-10 "
+            className="object-cover object-center rounded-xl rounded-tl-[200px] z-10 "
             alt="hero"
             width={550}
             height={400}
-            src="/images/hero-img2.jpg"
+            src="https://avatars.githubusercontent.com/u/76564523?v=4"
           />
         </div>
       </div>
