@@ -10,10 +10,10 @@ const Hero = () => {
       <div className="flex flex-row justify-between items-center flex-wrap-reverse p-2">
         <div className="flex-grow text-center lg:text-start  w-1/2">
           <h1 className="title-font sm:text-4xl text-2xl mb-2 font-bold ">
-            Hi 👋, I Am Veer
+            Hi 👋, I Am Kevin Okello
             </h1>
             <h3 className="text-lg mt-1 opacity-90 font-normal capitalize ">
-          Web Developer and UI/UX Designer
+          A Full Stack Web Developer
             </h3>
             <div className="w-24 h-1 bg-primary bg-opacity-70 mt-6 mb-4">
               <div className="w-10 h-1 bg-primary"></div>
@@ -50,7 +50,7 @@ const Hero = () => {
             alt="hero"
             width={550}
             height={400}
-            src="/images/hero-img.jpg"
+            src="/images/me.jpeg"
           />
         </div>
       </div>
