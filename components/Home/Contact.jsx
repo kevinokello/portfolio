@@ -55,54 +55,8 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="lg:w-1/3  w-full md:py-8 mt-8 md:mt-0">
-                    <h2 className="text-lg mb-1 font-bold title-font">
-                        Form Is Here
-                    </h2>
-                    <p className="leading-relaxed mb-5 text-sm  text-textSecondary dark:text-textSecondary">
-                        You can talk to me by flling this form. I will try my best to get back to you.
-                    </p>
-                    <form onSubmit={handleOnSubmit} className="flex flex-col">
-
-                        <div className="relative mb-4">
-                            <div className="leading-7 text-sm mb-2 text-textPrimary/70 dark:text-textDarkPrimary/70">
-                                Name
-                            </div>
-                            <input
-                                type="text"
-                                id="name"
-                                name="name"
-                                value={name}
-                                onChange={handleInputChange}
-                                className="w-full dark:bg-paperDark bg-paper rounded-xl border-primary/20 focus:border-primary/80 border-2 focus:primary focus:ring-2 focuprimary text-xs outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                            />
-                        </div>
-                        <div className="relative mb-4">
-                            <div className="leading-7 text-sm mb-2 text-textPrimary/70 dark:text-textDarkPrimary/70">
-                                Email
-                            </div>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                value={email}
-                                onChange={handleInputChange}
-                                className="w-full dark:bg-paperDark bg-paper rounded-xl border-primary/20 focus:border-primary/80 border-2 focus:primary focus:ring-2 focuprimary text-xs outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                            />
-                        </div>
-                        <div className="relative mb-4">
-                            <div className="leading-7 text-sm mb-2 text-textPrimary/70 dark:text-textDarkPrimary/70">
-                                Message
-                            </div>
-                            <textarea
-                                id="message"
-                                name="message"
-                                value={message}
-                                onChange={handleInputChange}
-                                className="w-full dark:bg-paperDark bg-paper rounded-xl border-primary/20 focus:border-primary/80 border-2 focus:primary focus:ring-2 focuprimary h-32 text-xs outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                            />
-                        </div>
-                        <button type="submit" disabled={!email || !name || !message} className={`disabled:bg-paper dark:disabled:bg-paperDark text-white text-center bg-primary hover:bg-secondary focus:outline-none outline-none font-medium rounded-lg text-sm p-1 px-1.5 m-1 md:px-3 md:py-2 transition-all duration-300`}>Submit</button>
-                    </form>
+                    
+            
                 </div>
             </div>
         </Section>
