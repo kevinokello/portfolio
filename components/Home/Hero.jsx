@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start">
             <div>
-              <a href="/">
+              <a href="https://drive.google.com/file/d/1vbokrQvFT9UmuIDbmt6MC09_TC7MndCZ/view?usp=sharing" target="_blank">
                 <button
                   type="button"
                   className="outline-none text-xs md:text-sm text-white bg-gradient-to-r from-primary/80 via-secondary/60 to-secondary/80 hover:from-primary hover:via-secondary/80 hover:to-secondary transition-all duration-300 font-medium rounded-lg text-md opacity-90 hover:opacity-100 py-2.5 px-4 text-center mr-2 mb-3 flex justify-center items-center"
@@ -62,7 +62,7 @@ const Hero = () => {
             alt="hero"
             width={550}
             height={400}
-            src="https://avatars.githubusercontent.com/u/76564523?v=4"
+            src="/images/hero-img2.jpg"
           />
         </div>
       </div>
