@@ -20,41 +20,40 @@ const About = () => {
 
     ];
     return (
-        <Section id="about" className="!relative">
-            <div className='flex sm:flex-row justify-center flex-col px-4'>
-                <div className='w-full sm:w-1/2 mb-12 sm:mb-0'>
-                    
-                    <h1 className=" capitalize title-font  sm:text-3xl text-2xl mb-2 font-bold">
-                        <span className='text-primary'>People </span>
-                        ignore designs
-                        <br />
-                        that ignores
-                        <span className='text-primary ml-2'>People </span>
-                    </h1>
-                    <p className=" capitalize leading-relaxed text-xs md:text-sm text-textSecondary dark:text-textDarkSecondary">
-                        - Frank Chimero
-                    </p>
-                </div>
-                <div className='w-full sm:w-1/2'>
-                    <h1 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
-                        Connect With Me
-                    </h1>
-                    <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
-                        I am approximately on every social media platform. You can also mail me anytime, I will reply within 24 hours
-                    </p>
-                    <div className='select-none capitalize flex my-4'>
-                        {socialLinks.map(({ icon, url }, index) => (
-                            <Link href={url} key={index}>
-                                <div className='border-primary border-2 mr-3 mb-3 rounded-full p-2 text-primary hover:bg-primary hover:text-white transition duration-300 cursor-pointer'>
-                                    {icon}
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
-                </div>
+      <Section id="about" className="!relative">
+        <div className="flex sm:flex-row justify-center flex-col px-4">
+          <div className="w-full sm:w-1/2 mb-12 sm:mb-0">
+            <h1 className=" capitalize title-font  sm:text-3xl text-2xl mb-2 font-bold">
+              <span className="text-primary">“Simplicity </span>
+              <br />
+              is the soul of
+              <span className="text-primary ml-2"> efficiency.” </span>
+            </h1>
+            <p className=" capitalize leading-relaxed text-xs md:text-sm text-textSecondary dark:text-textDarkSecondary">
+              – Austin Freeman
+            </p>
+          </div>
+          <div className="w-full sm:w-1/2">
+            <h1 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
+              Connect With Me
+            </h1>
+            <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
+              I am approximately on every social media platform. You can also
+              mail me anytime, I will reply within 24 hours
+            </p>
+            <div className="select-none capitalize flex my-4">
+              {socialLinks.map(({ icon, url }, index) => (
+                <Link href={url} key={index}>
+                  <div className="border-primary border-2 mr-3 mb-3 rounded-full p-2 text-primary hover:bg-primary hover:text-white transition duration-300 cursor-pointer">
+                    {icon}
+                  </div>
+                </Link>
+              ))}
             </div>
-        </Section>
-    )
+          </div>
+        </div>
+      </Section>
+    );
 }
 
 export default About
