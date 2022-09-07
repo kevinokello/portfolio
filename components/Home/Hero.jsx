@@ -62,7 +62,7 @@ const Hero = () => {
             alt="hero"
             width={550}
             height={400}
-            src="/images/m.jpg"
+            src="/images/hero-img.jpg"
           />
         </div>
       </div>
