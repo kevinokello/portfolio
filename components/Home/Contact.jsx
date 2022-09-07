@@ -29,7 +29,6 @@ const Contact = () => {
         description="This could be the beginning of something graet!"
       >
         <div className=" mx-auto flex lg:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 w-full shadow-normal flex-1 mx-auto rounded-lg lg:mr-10 overflow-hidden p-4 pt-56 flex items-end justify-start relative">
             <div className="mx-auto">
               <div className="dark:bg-paperDark bg-paper relative text-xs flex flex-wrap py-6 pr-6 rounded shadow-md">
                 <div className="lg:w-1/2 px-6">
@@ -56,7 +55,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
+  
         </div>
       </Section>
     );
