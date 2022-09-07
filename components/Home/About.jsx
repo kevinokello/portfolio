@@ -3,18 +3,21 @@ import React from 'react'
 import Link from "next/link"
 import Section from '../Customs/Section'
 
-import { FaCodepen, FaFacebookF, FaGithub, FaHackerrank, FaInstagram } from "react-icons/fa"
+import { FaCodepen, FaLinkedin, FaGithub } from "react-icons/fa"
 
 const About = () => {
     const socialLinks = [
+
       {
         url: "https://github.com/kevinokello",
         icon: <FaGithub className="w-5 h-5" />,
       },
+      { url: "#", icon: <FaCodepen className="w-5 h-5" /> },
       {
         url: "https://www.linkedin.com/in/kevin-okello-b4b977202/",
         icon: <FaLinkedin className="w-5 h-5" />,
       },
+
     ];
     return (
         <Section id="about" className="!relative">
