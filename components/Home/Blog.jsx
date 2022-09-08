@@ -13,7 +13,13 @@ const Blog = () => {
   ]
   const articles = [
     {
-     
+      thumbnail: "",
+      title: "",
+      description: "",
+      categories: [categories[2]],
+      authorName: "",
+      timeToRead: "",
+      publishedAt: ""
     },
     {
       thumbnail: "/images/blog/blog-2.jpg",
@@ -42,9 +48,9 @@ const Blog = () => {
       subtitle="Recent Posts"
     >
       <div className="flex flex-wrap justify-center items-start">
-        {articles.map((article, index) => (
+        {/* {articles.map((article, index) => (
           <BlogCard key={index} {...article} />
-        ))}
+        ))} */}
       </div>
 
     </Section>
