@@ -9,23 +9,25 @@ const Services = () => {
       {
         title: "Creative Design",
         description:
-          "In publishing and graphic design, Lorem ipsum is a placee without them.",
+          "Mydesign services cover entire product design lifecycle, From prototyping to fully functional design.",
         icon: <HiOutlinePencilAlt className="w-6 h-6 stroke-2" />,
       },
       {
         title: "Software Development",
         description:
-          "hing and graphic design,hir text commonly use on the platform.",
+          "I dopixel perfect responsive softeare design services which are built around aesthetics and usability.",
         icon: <HiOutlineChartBar className="w-6 h-6 stroke-2" />,
       },
       {
         title: "Mobile App Design",
-        description: "checking and text commonly used to demon.",
+        description:
+          "I specialize in development of highly scalable MVC Web and Mobile Applications using React Native.",
         icon: <HiOutlineDeviceMobile className="w-6 h-6 stroke-2" />,
       },
       {
         title: "Content Writing",
-        description: "Use the text generator to create your own text.",
+        description:
+          "My content and copy-writing services will help you articulate your message and give the audience a compelling reason to keep coming back.",
         icon: <HiOutlinePencilAlt className="w-6 h-6 stroke-2" />,
       },
     ];
