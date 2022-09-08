@@ -24,9 +24,9 @@ const Contact = () => {
     return (
       <Section
         id="contact"
-        title="Contact Me"
+        title="Get in touch"
         subtitle="connect with me"
-        description="This could be the beginning of something graet!"
+        description=""
       >
         <div className=" mx-auto flex lg:flex-nowrap flex-wrap">
             <div className="mx-auto">

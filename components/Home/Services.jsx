@@ -33,7 +33,7 @@ const Services = () => {
     ];
 
     return (
-        <Section id="services" title="Services" description="Lorem ipsum dolor sit adipisicing elit. Facere, quos! Et asperiores ut dolorem dignissimos possimus, molestiae nemo." subtitle="what I can do for you ?">
+        <Section id="services" title="Services" description="" subtitle="what I can do for you ?">
             <div className="flex flex-wrap justify-center items-center">
                 {data.map(({ title, description, icon }, index) => (
                     <ServiceCard key={index} icon={icon} title={title} description={description} />
