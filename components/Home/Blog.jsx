@@ -6,20 +6,20 @@ import { HiOutlineArrowRight, HiOutlineEye } from 'react-icons/hi'
 
 const Blog = () => {
   const categories = [
-    // { name: "Web3", slug: "web3" },
-    // { name: "Crypto Currency", slug: "crypto-currency" },
-    // { name: "Daily News", slug: "daily-news" },
+    { name: "", slug: "web3" },
+    { name: "", slug: "crypto-currency" },
+    { name: "", slug: "daily-news" },
 
   ]
   const articles = [
     {
-      thumbnail: "/images/blog/blog-1.jpg",
-      title: "Best Computer setup for programming under ₹10,000",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsam minima omn.",
+      thumbnail: "",
+      title: "",
+      description: "",
       categories: [categories[2]],
-      authorName: "admin",
-      timeToRead: "4 minutes",
-      publishedAt: "26 august 2022"
+      authorName: "",
+      timeToRead: "",
+      publishedAt: ""
     },
     {
       thumbnail: "/images/blog/blog-2.jpg",
