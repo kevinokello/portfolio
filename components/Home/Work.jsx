@@ -148,7 +148,7 @@ const Work = () => {
     <Section
       id="work"
       title="Works"
-      description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos."
+      description=""
       subtitle="My Projects since last 5 years"
       className="!pb-14 md:!pb-28"
     >
