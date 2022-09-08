@@ -40,6 +40,7 @@ const Technologies = () => {
     <section id="technologies" className="bg-paper/80 dark:bg-paperDark/80 py-12 px-10 body-font">
       <div className=' w-full capitalize md:w-[60%] mx-auto mb-10 text-center'>
         <h2 className='text-2xl font-bold mb-3'>
+
         </h2>
         <p className='text-sm w-[80%] mx-auto text-textSecondary dark:text-textDarkSecondary font-medium'>
 
