@@ -33,17 +33,24 @@ const About = () => {
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
-              Shortly about me
+              A curiosity-driven Full-Stack Developer
             </h1>
             <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
-              Since beginning my journey as a freelance developer nearly 5
-              years ago, I&#8217;ve done remote work for agencies, consulted for
+              Since beginning my journey as a freelance developer nearly 5 years
+              ago, I&#8217;ve done remote work for agencies, consulted for
               startups, and collaborated with talented people to create web
               products for both business and consumer use.
-              <br />I am adept at handling multiple design projects in a fast
-              paced environment. Excellent at time management, organization,
-              problem solving and meeting deadlines.
+              <br /> <br />I am adept at handling multiple design projects in a
+              fast paced environment. Excellent at time management,
+              organization, problem solving and meeting deadlines.
+              <br /> <br />
+              I'm passionate about bringing both the technical and visual
+              aspects of digital products to life. User experience, beautiful
+              pixels and writing clean accessible, human code matters to me.
             </p>
+            <h2 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
+              Let's connect
+            </h2>
             <div className="select-none capitalize flex my-4">
               {socialLinks.map(({ icon, url }, index) => (
                 <Link href={url} key={index}>
