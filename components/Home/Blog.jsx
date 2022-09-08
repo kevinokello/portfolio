@@ -13,13 +13,7 @@ const Blog = () => {
   ]
   const articles = [
     {
-      thumbnail: "",
-      title: "",
-      description: "",
-      categories: [categories[2]],
-      authorName: "",
-      timeToRead: "",
-      publishedAt: ""
+     
     },
     {
       thumbnail: "/images/blog/blog-2.jpg",
