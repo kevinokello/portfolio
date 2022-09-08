@@ -5,7 +5,7 @@ import {
   HiOutlineUser,
   HiOutlineCode,
   HiChevronUp,
-  HiOutlineDocumentText,
+  // HiOutlineDocumentText,
   HiOutlineSun,
   HiOutlineMoon,
   HiOutlineLightningBolt,
@@ -33,11 +33,11 @@ const Header = (props) => {
       url: "#work",
       icon: <HiOutlineCode className="w-5 h-5" />,
     },
-    {
-      name: "Blog",
-      url: "#blog",
-      icon: <HiOutlineDocumentText className="w-5 h-5" />,
-    },
+    // {
+    //   name: "Blog",
+    //   url: "#blog",
+    //   icon: <HiOutlineDocumentText className="w-5 h-5" />,
+    // },
     {
       name: "Contact",
       url: "#contact",
