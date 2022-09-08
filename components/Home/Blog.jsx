@@ -43,9 +43,9 @@ const Blog = () => {
   return (
     <Section
       id="blog"
-      title="My Blog"
-      description="Welcome to my digital garden where I share what I'm learning, my shipped great products, becoming a better developer and growing a career in tech."
-      subtitle="Recent Posts"
+      title=""
+      description=""
+      subtitle=""
     >
       <div className="flex flex-wrap justify-center items-start">
         {/* {articles.map((article, index) => (
