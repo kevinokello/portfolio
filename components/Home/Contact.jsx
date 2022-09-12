@@ -31,13 +31,8 @@ const Contact = () => {
         <div className=" mx-auto flex lg:flex-nowrap flex-wrap">
             <div className="mx-auto">
               <div className="dark:bg-paperDark bg-paper relative text-xs flex flex-wrap py-6 pr-6 rounded shadow-md">
-                <div className="lg:w-1/2 px-6">
-                  <h2 className="title-font font-semibold tracking-widest">
-                    ADDRESS
-                  </h2>
-                  <p className="mt-1">Nairobi, Kenya</p>
-                </div>
-                <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
+
+                <div className="lg:w-1/2 px-8 mt-4 lg:mt-0">
                   <div>
                     <h2 className="title-font font-semibold  tracking-widest">
                       EMAIL
