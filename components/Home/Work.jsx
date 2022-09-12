@@ -9,28 +9,28 @@ import WorkCard from "../Customs/WorkCard";
 const Work = () => {
   const categories = [
     {
-      name: "React JS",
-      slug: "react-js",
+      name: "Laravel",
+      slug: "laravel",
     },
     {
-      name: "Java",
-      slug: "java",
+      name: "PHP",
+      slug: "php",
     },
     {
-      name: "Tailwind CSS",
-      slug: "tailwind-css",
+      name: "React Native",
+      slug: "react-native",
     },
     {
       name: "Node JS",
       slug: "node-js",
     },
     {
-      name: "MERN Stack",
-      slug: "mern-stack",
+      name: "React",
+      slug: "react",
     },
     {
-      name: "JAM Stack",
-      slug: "jam-stack",
+      name: "Next.js",
+      slug: "next-js",
     },
   ];
   const works = [
