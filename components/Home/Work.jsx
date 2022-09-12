@@ -145,47 +145,47 @@ const Work = () => {
   };
 
   return (
-    // <Section
-    //   id="work"
-    //   title="Works"
-    //   description=""
-    //   subtitle="My Projects since last 5 years"
-    //   className="!pb-14 md:!pb-28"
-    // >
-    //   <div className="flex items-center m-auto flex-col text-center w-full mb-10">
-    //     <ul className="flex flex-wrap justify-center text-sm font-medium text-center">
-    //       {[{ name: "All", slug: "all" }, ...categories].map((ct, index) => (
-    //         <li className="m-1 mb-1" key={index}>
-    //           <div
-    //             onClick={() => {
-    //               handleWorkFilter(ct.slug);
-    //             }}
-    //             className={` inline-block shadow-normal py-2.5 px-5 cursor-pointer rounded-full transition-all duration-300 text-textPrimary dark:text-textDarkPrimary bg-paper dark:bg-paperDark hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white  ${
-    //               ct.slug == category && "!text-white !bg-primary"
-    //             }`}
-    //           >
-    //             {ct.name}
-    //           </div>
-    //         </li>
-    //       ))}
-    //     </ul>
-    //   </div>
+    <Section
+      id="work"
+      title="Works"
+      description=""
+      subtitle="My Projects since last 5 years"
+      className="!pb-14 md:!pb-28"
+    >
+      <div className="flex items-center m-auto flex-col text-center w-full mb-10">
+        <ul className="flex flex-wrap justify-center text-sm font-medium text-center">
+          {[{ name: "All", slug: "all" }, ...categories].map((ct, index) => (
+            <li className="m-1 mb-1" key={index}>
+              <div
+                onClick={() => {
+                  handleWorkFilter(ct.slug);
+                }}
+                className={` inline-block shadow-normal py-2.5 px-5 cursor-pointer rounded-full transition-all duration-300 text-textPrimary dark:text-textDarkPrimary bg-paper dark:bg-paperDark hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white  ${
+                  ct.slug == category && "!text-white !bg-primary"
+                }`}
+              >
+                {ct.name}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
 
-    //   <Masonry
-    //     breakpointCols={{ default: 4, 1100: 3, 700: 2, 500: 1 }}
-    //     className="flex flex-wrap"
-    //   >
-    //     {filteredWorks.map((work, index) => (
-    //       <motion.div
-    //         key={index}
-    //         animate={animateCard}
-    //         transition={{ duration: 0.4, delayChildren: 0.4 }}
-    //       >
-    //         <WorkCard {...work} />
-    //       </motion.div>
-    //     ))}
-    //   </Masonry>
-    // </Section>
+      <Masonry
+        breakpointCols={{ default: 4, 1100: 3, 700: 2, 500: 1 }}
+        className="flex flex-wrap"
+      >
+        {filteredWorks.map((work, index) => (
+          <motion.div
+            key={index}
+            animate={animateCard}
+            transition={{ duration: 0.4, delayChildren: 0.4 }}
+          >
+            <WorkCard {...work} />
+          </motion.div>
+        ))}
+      </Masonry>
+    </Section>
   );
 };
 
