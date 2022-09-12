@@ -27,8 +27,18 @@ const About = () => {
               that ignores
               <span className="text-primary ml-2">People </span>
             </h1>
-            <p className=" capitalize leading-relaxed text-xs md:text-sm text-textSecondary dark:text-textDarkSecondary">
-              - Frank Chimero
+            <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
+              Since beginning my journey as a freelance developer nearly 5 years
+              ago, I&#8217;ve done remote work for agencies, consulted for
+              startups, and collaborated with talented people to create web
+              products for both business and consumer use.
+              <br /> <br />I am adept at handling multiple design projects in a
+              fast paced environment. Excellent at time management,
+              organization, problem solving and meeting deadlines.
+              <br /> <br />
+              I'm passionate about bringing both the technical and visual
+              aspects of digital products to life. User experience, beautiful
+              pixels and writing clean accessible, human code matters to me.
             </p>
           </div>
           <div className="w-full sm:w-1/2">
