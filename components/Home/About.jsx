@@ -28,10 +28,13 @@ const About = () => {
               <span className="text-primary ml-2">People </span>
             </h1>
             <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
-              Since beginning my journey as a freelance developer nearly 5 years
-              ago, I&#8217;ve done remote work for agencies, consulted for
-              startups, and collaborated with talented people to create web
-              products for both business and consumer use.
+              Although I am not the typical designer, I do possess excellent
+              visual abilities, and this makes me an excellent presenter,
+              allowing me to successfully communicate design ideas to
+              stakeholders and design teams. With my strong conceptualization
+              ability, I am able to visualize and create beautiful works.
+              Lastly, you can find me mostly tweaking stylesheets and creating
+              fluid user experiences.
               <br /> <br />I am adept at handling multiple design projects in a
               fast paced environment. Excellent at time management,
               organization, problem solving and meeting deadlines.
@@ -50,14 +53,17 @@ const About = () => {
               ago, I&#8217;ve done remote work for agencies, consulted for
               startups, and collaborated with talented people to create web
               products for both business and consumer use.
-              <br /> <br />I am adept at handling multiple design projects in a
-              fast paced environment. Excellent at time management,
-              organization, problem solving and meeting deadlines.
+              <br /> <br />
+              I'm a graduate of Zetech University, majored in BBIT with a
+              specialization in Information Technology. I've done a lot of full-stack work,
+              though now I'm mostly focused on back-end. I especially enjoy
+              working with LARAVEL.
               <br /> <br />
               I'm passionate about bringing both the technical and visual
               aspects of digital products to life. User experience, beautiful
               pixels and writing clean accessible, human code matters to me.
             </p>
+            <br />
             <h2 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
               Let's connect
             </h2>
