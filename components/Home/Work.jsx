@@ -25,10 +25,6 @@ const Work = () => {
       slug: "node-js",
     },
     {
-      name: "React",
-      slug: "react",
-    },
-    {
       name: "Next.js",
       slug: "next-js",
     },
