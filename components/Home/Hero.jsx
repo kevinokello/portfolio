@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
         <div className="mb-6 mx-auto text-center select-none relative">
           <Image
-            className="object-cover object-center rounded-xl rounded-tl-[200px] z-10 "
+            className="object-cover object-center rounded-xl rounded-tl-[0px] z-10 "
             alt="hero"
             width={550}
             height={400}
