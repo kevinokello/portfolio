@@ -3,9 +3,9 @@ import React from 'react'
 import Hero from './Hero'
 import About from './About'
 import Services from './Services'
-import Work from './Work'
+// import Work from './Work'
 import Technologies from './Technologies'
-import Testimonial from './Testimonial'
+// import Testimonial from './Testimonial'
 import Blog from './Blog'
 import Contact from './Contact'
 
@@ -15,7 +15,7 @@ const Home = () => {
         <Hero/>
         <About/>
         <Services/>
-        <Work/>
+        {/* <Work/> */}
         <Technologies/>
         {/* <Testimonial/> */}
         <Blog/>

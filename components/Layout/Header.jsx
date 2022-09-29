@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import {
   HiOutlineUser,
-  HiOutlineCode,
+  // HiOutlineCode,
   HiChevronUp,
   // HiOutlineDocumentText,
   HiOutlineSun,
@@ -11,8 +11,6 @@ import {
   HiOutlineLightningBolt,
   HiOutlineMail,
 } from "react-icons/hi";
-import Image from "next/image";
-
 const Header = (props) => {
   const { theme, themeToggle } = props;
   const router = useRouter();
@@ -28,11 +26,11 @@ const Header = (props) => {
       url: "#services",
       icon: <HiOutlineLightningBolt className="w-5 h-5" />,
     },
-    {
-      name: "Works",
-      url: "#work",
-      icon: <HiOutlineCode className="w-5 h-5" />,
-    },
+    // {
+    //   name: "Works",
+    //   url: "#work",
+    //   icon: <HiOutlineCode className="w-5 h-5" />,
+    // },
     // {
     //   name: "Blog",
     //   url: "#blog",
