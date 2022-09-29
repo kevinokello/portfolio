@@ -22,16 +22,16 @@ const About = () => {
           <div className="w-full sm:w-1/2 mb-12 sm:mb-0">
            
             <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
-            <div className="mb-6 mx-auto text-center select-none relative">
-          <Image
-            className="object-cover object-center rounded-xl rounded-tl-[0px] z-10 "
-            alt="hero"
-            width={550}
-            height={400}
-            // src="/images/hero-img2.JPG"
-              src="/images/hero.svg"
-          />
-        </div>
+              With my strong conceptualization ability, I am able to visualize
+              and create beautiful works. Lastly, you can find me mostly
+              tweaking stylesheets and creating fluid user experiences.
+              <br /> <br />I am adept at handling multiple design projects in a
+              fast paced environment. Excellent at time management,
+              organization, problem solving and meeting deadlines.
+              <br /> <br />
+              I'm passionate about bringing both the technical and visual
+              aspects of digital products to life. User experience, beautiful
+              pixels and writing clean accessible, human code matters to me.
             </p>
           </div>
           <div className="w-full sm:w-1/2">
