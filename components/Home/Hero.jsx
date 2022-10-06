@@ -2,7 +2,7 @@ import React from "react";
 
 import Section from "../Customs/Section";
 import Image from "next/image";
-import { HiDownload, HiEye } from "react-icons/hi"
+import { HiDownload } from "react-icons/hi"
 
 const Hero = () => {
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
               </a>
             </div>
             <div>
-              <button
+              {/* <button
                 onClick={() =>
                   document
                     .querySelector("#work")
@@ -56,7 +56,7 @@ const Hero = () => {
                   <HiEye className="mr-2 w-5 h-5 transition-none" />
                   View Projects
                 </span>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
