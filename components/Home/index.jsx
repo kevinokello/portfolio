@@ -8,7 +8,6 @@ import Services from './Services'
 // import Testimonial from './Testimonial'
 import Blog from './Blog'
 import Contact from './Contact'
-
 const Home = () => {
   return (
     <div className='bg-[url("/images/technologies-img.jpg")]' style={{backgroundAttachment:"fixed", backgroundSize:"cover", backgroundRepeat:"no-repeat", backgroundPosition:"center"}}>
