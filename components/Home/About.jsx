@@ -21,12 +21,13 @@ const About = () => {
         <div className="flex sm:flex-row justify-center flex-col px-4">
           <div className="w-full sm:w-1/2 mb-12 sm:mb-0">
             <h1 className=" capitalize title-font  sm:text-3xl text-2xl mb-2 font-bold">
-              <span className="text-primary">"People </span>
-              ignore designs
+              <span className="text-primary">"I'm looking to</span>
+              expand my portfolio
               <br />
-              that ignores
-              <span className="text-primary ml-2">People"</span>
+              while I'm on top 
+              <span className="text-primary ml-2">and while I'm young."</span>
             </h1>
+            <br />
             <h2 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
               Let's connect
             </h2>
