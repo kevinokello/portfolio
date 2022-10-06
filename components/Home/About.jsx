@@ -27,7 +27,18 @@ const About = () => {
               that ignores
               <span className="text-primary ml-2">People"</span>
             </h1>
-       
+            <h2 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
+              Let's connect
+            </h2>
+            <div className="select-none capitalize flex my-4">
+              {socialLinks.map(({ icon, url }, index) => (
+                <Link href={url} key={index}>
+                  <div className="border-primary border-2 mr-3 mb-3 rounded-full p-2 text-primary hover:bg-primary hover:text-white transition duration-300 cursor-pointer">
+                    {icon}
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
@@ -65,18 +76,7 @@ const About = () => {
               aspects of digital products to life. User experience, beautiful
               pixels and writing clean accessible, human code matters to me.
             </p>
-            <h2 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
-              Let's connect
-            </h2>
-            <div className="select-none capitalize flex my-4">
-              {socialLinks.map(({ icon, url }, index) => (
-                <Link href={url} key={index}>
-                  <div className="border-primary border-2 mr-3 mb-3 rounded-full p-2 text-primary hover:bg-primary hover:text-white transition duration-300 cursor-pointer">
-                    {icon}
-                  </div>
-                </Link>
-              ))}
-            </div>
+           
           </div>
         </div>
       </Section>
