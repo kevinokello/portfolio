@@ -42,7 +42,7 @@ const About = () => {
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="capitalize title-font sm:text-2xl text-xl mb-2 font-semibold">
-              A curiosity-driven Full-Stack Developer
+         
             </h1>
             <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
               Since beginning my journey as a freelance developer nearly 5 years
@@ -55,16 +55,7 @@ const About = () => {
               full-stack work, though now I'm mostly focused on back-end. I
               especially enjoy working with LARAVEL.
               <br /> <br />
-              I'm passionate about bringing both the technical and visual
-              aspects of digital products to life. User experience, beautiful
-              pixels and writing clean accessible, human code matters to me.
-            </p>
-            <br />   <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
-              Although I am not the typical designer, I do possess excellent
-              visual abilities, and this makes me an excellent presenter,
-              allowing me to successfully communicate design ideas to
-              stakeholders and design teams.
-              <br /> <br />
+   
               With my strong conceptualization ability, I am able to visualize
               and create beautiful works. Lastly, you can find me mostly
               tweaking stylesheets and creating fluid user experiences.
